@@ -1,0 +1,61 @@
+**Classic Chess Game Clone**  
+A real-time multiplayer chess game built with modern web technologies, featuring move validation, a user-friendly interface, and responsive gameplay.
+
+---
+
+### **Features**  
+- **Real-Time Gameplay:** Play against another player with instant updates using Socket.io.  
+- **Move Validation:** Game logic and move validation powered by the Chess.js engine.  
+- **User-Friendly Design:** Interface crafted with EJS templates for a seamless experience.
+
+---
+
+### **Technologies Used**  
+- **JavaScript:** Core game logic and client-side scripting.  
+- **Node.js:** Server-side runtime environment.  
+- **Express.js:** Efficient server routing and middleware.  
+- **EJS:** Dynamic server-side templating.  
+- **Socket.io:** Real-time communication between players.  
+- **Chess.js:** Move validation and game logic.  
+
+---
+
+### **Installation and Setup**  
+
+1. **Clone the repository:**  
+   ```bash  
+   git clone https://github.com/Palak150104/classic-chess-game.git 
+   cd chess-game-clone  
+   ```  
+
+2. **Install dependencies:**  
+   ```bash  
+   npm install  
+   ```  
+
+3. **Set up environment variables:**  
+   Create a `.env` file in the root directory (if required) and configure:  
+   ```env  
+   PORT=3000  
+   ```  
+
+4. **Start the server:**  
+   ```bash  
+   node app.js  
+   ```  
+
+---
+
+### **Dependencies**  
+- **chess.js:** `^1.0.0-beta.8`  
+- **ejs:** `^3.1.10`  
+- **express:** `^4.19.2`  
+- **socket.io:** `^4.7.5`  
+
+### **Dev Dependencies**  
+- **tailwindcss:** `^3.4.4`  
+
+---
+
+### **Author**  
+**Palak Khandelwal**  
